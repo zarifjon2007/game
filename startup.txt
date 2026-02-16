@@ -1,0 +1,186 @@
+*title i-doll
+*author Mfein
+
+*scene_list
+    startup
+    prologue_childhood
+    chapter1_start
+    chapter2_trainee
+    chapter3_solo
+    chapter3_jun
+    chapter4_debut
+    chapter5_idol_life
+    chapter6_scandal
+    chapter7_burnout
+    chapter8_finale
+    chapter9_interview_end
+    epilogues
+    social_logic
+
+*create chapter 1
+*create full_name "Unknown"
+*create name "Unknown"
+*create surname "Unknown"
+*create treasure "Unknown"
+*create performance_type "none"
+
+*comment --- Physical & Stats ---
+*create vocals 5
+*create dance 5
+*create visual 5
+*create charisma 5
+*create physical 100
+*create stress 15
+*create self_belief 10
+*create the_mask 0
+
+*comment --- Personality ---
+*create ruthless 0
+*create per_bold 50
+*create per_gentle 50
+*create rebellion 50
+*create obedience 50
+*create imposter_syndrome false
+*comment --- Status & Social ---
+*create followers 0
+*create social_feed_content "No new notifications."
+*create scandal_risk 0
+*create scandal_mult 1
+*create rank_title "Trainee"
+
+*comment --- Relationships ---
+*create rel_father 50
+*create rel_mother 50
+*create rel_jun 30
+*create rel_haneul 30
+*create rel_kang 30
+*create rel_rio 30
+*create rel_jiwon 30
+*create rel_yuri 30
+*create rel_manager 50
+*create rel_eden 30
+*create rel_minjae 30
+*create rel_noa 15
+*create rel_rival 25
+*create romance_status "single"
+*create romance_commitment "none"
+*create victory false
+*comment --- Plot Flags ---
+*create entry_method "merit"
+*create cut_reason "none"
+*create dissociated_pass false
+*create hidden_injury false
+*create passed_eval false
+*create stats_unlocked false
+*create collapse_count 0
+*create noa_name_known false
+*create intro_style "none"
+*create room_vibe "none"
+*create role_pool_party "none"
+*comment --- Character Variables ---
+*create gender "female"
+*create he_she "she"
+*create him_her "her"
+*create his_her "her"
+*create boy_girl "girl"
+*create man_woman "woman"
+*create son_daughter "daughter"
+*create honorific_older_male "Sunbae"
+*create romance_minjae false
+*create p_body_type "unknown"
+*create p_height "average"
+*create skin_tone "fair"
+*create eye_color "brown"
+*create hair_color "black"
+*create hair_style "natural"
+*create heterochromia false
+*create tattoos false
+*create piercings false
+*create hobby "None"
+*create origin "Local"
+*create archetype "None"
+*create motivation "None"
+
+*create haneul_gender "male"
+*create h_he "he"
+*create h_him "him"
+*create h_his "his"
+
+*create jun_nickname "Jun"
+*create j_he "he"
+*create j_him "him"
+*create j_his "his"
+*create j_boy "boy"
+
+*create rival_nickname " "
+*create rival_name "Coco"
+*create rival_gender "unknown"
+*create r_he "he"
+*create r_him "him"
+*create r_his "his"
+
+*create kang_he "he"
+*create kang_him "him"
+*create kang_his "his"
+*create rio_he "he"
+*create rio_him "him"
+*create rio_his "his"
+*create jiwon_he "she"
+*create jiwon_him "her"
+*create jiwon_his "her"
+*create yuri_he "she"
+*create yuri_him "her"
+*create yuri_his "her"
+
+*create biology "male"
+*create dorm_ward "boys"
+*create has_chest false
+*create lower_anatomy "penis"
+*create romance_coco false
+*create romance_haneul false
+*create romance_noa false
+*create romance_minjae false
+*create mental_state "Stable"
+*create trauma_points 0
+*create eating_disorder_flag false
+*create social_special_moment false
+*create  zen_mode false
+*create _idoll_checkpoint ""
+*comment sm_init idoll | 14
+⚠️ CONTENT WARNINGS & GAME MECHANICS (i-doll)
+i-doll is an interactive drama intended for mature audiences. It explores the high-pressure, often predatory environment of the K-pop industry.  Due to the addition of new Psychological and Physical Realism mechanics, this story contains themes that may be distressing to some players.
+
+🧠 Mental Health & Body Image Warnings
+The narrative includes detailed depictions of:
+
+Eating Disorders & Body Dysmorphia: The game simulates extreme weight standards, public weigh-ins, and the development of unhealthy coping mechanisms such as self-starvation.
+
+Psychological Breakdown: The story tracks mental deterioration through states of Mania, Emotional Dissociation, and Severe Depression.
+
+
+Physical Self-Harm: The abuse of medication (specifically high-strength painkillers) to force an injured body to continue performing. 
+
+Institutional Abuse: Verbal and emotional abuse from authority figures and a rigid social hierarchy.
+
+📊 Hidden Mechanics: Trauma & Mental States
+Unlike the temporary Stress meter, which can be managed through rest, this game utilizes a permanent Trauma System:
+
+Trauma Points: Extreme actions or traumatic events accrue hidden, permanent points that do not reset.
+
+Mental State Flags: Once Trauma or Stress crosses specific thresholds, your character’s Mental State will shift based on their personality (e.g., a "Masked" character may dissociate, while a "Ruthless" character may enter a manic state).
+
+Narrative Locking (Consequences): Having an active Eating Disorder or a compromised Mental State will permanently lock certain choices. Your character may become "too ill" or "too detached" to react in a healthy or social manner.
+
+[!IMPORTANT] This game does not encourage or romanticize these behaviors. They are depicted as the destructive and harmful consequences of a brutal industry. Later chapters will offer opportunities to seek help and attempt recovery, though the path to healing is difficult and depends on your choices.
+
+By clicking "Next," you acknowledge that you are aware of these themes and wish to proceed.
+*page_break ok ok now let the fun begin
+*label prologue_start
+
+The red "ON AIR" light buzzes to life.
+"The world knows the legend," the host says. "But where did it really begin?"
+
+You close your eyes.
+
+*page_break Yeepi kye A ...
+*goto_scene prologue_childhood
